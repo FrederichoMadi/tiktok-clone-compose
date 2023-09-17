@@ -30,7 +30,6 @@
             <option value="$PROJECT_DIR$/feature/loginwithemailphone" />
             <option value="$PROJECT_DIR$/feature/myprofile" />
             <option value="$PROJECT_DIR$/feature/setting" />
-            <option value="$PROJECT_DIR$/loginwithemailphone" />
           </set>
         </option>
       </GradleProjectSettings>

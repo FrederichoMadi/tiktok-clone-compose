@@ -8,6 +8,7 @@ import com.fredericho.authentication.authenticationNavGraph
 import com.fredericho.cameramedia.cameraMediaNavGraph
 import com.fredericho.commentlisting.commentListNavigation
 import com.fredericho.core.DestinationRoute.HOME_SCREEN_ROUTE
+import com.fredericho.creatorprofile.creatorProfileNavGraph
 import com.fredericho.friends.friendsNavGraph
 import com.fredericho.home.homeNavGraph
 import com.fredericho.inbox.inboxNavGraph
@@ -35,6 +36,6 @@ fun AppNavHost(
         loginEmailPhoneNavGraph(navController)
         commentListNavigation(navController)
         cameraMediaNavGraph(navController)
-
+        creatorProfileNavGraph(navController)
     }
 }
